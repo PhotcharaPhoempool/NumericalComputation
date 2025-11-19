@@ -10,6 +10,7 @@ def trapezoid(n, a, b):
     return (h / 2) * p2
 
 a, b, TV = 8, 30, 11061
+
 for n in range(1, 9):
     CA = trapezoid(n, a, b)
     ET = TV - CA
